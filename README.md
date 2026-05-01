@@ -60,6 +60,4 @@ However, there are some improvement points:
 * Risk-free rate in mibian.BS() is set at 0.
 * EWMA parameters are not sensitivity-tested. λ=0.94 and ±0.5σ bands are standard defaults, not validated choices
 
-**Disclaimer**
-
-For **educational and research purposes only**. Does not constitute financial advice. Options trading involves substantial risk of loss.
+**Disclaimer**: For **educational and research purposes only**. Does not constitute financial advice. Options trading involves substantial risk of loss.
