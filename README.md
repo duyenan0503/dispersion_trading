@@ -32,6 +32,9 @@ An **EWMA** (λ = 0.94) is applied to dirty correlation to produce a rolling mea
 | `dirty_corr crosses EWMA mean` | Exit position |
 | Expiry date | Force flat (position = 0) |
 
+<img width="1214" height="605" alt="image" src="https://github.com/user-attachments/assets/43de9624-9f63-487b-afde-c05e5ea37718" />
+
+
 **5. Delta Hedging**
 Delta hedging is actually very important in option trading. However, in this example, I intentionally trade ATM straddle (ATM call + ATM put), so the add-up delta in each leg is almost 0. 
 This can be considered as one of improvement points to increase the effectiveness of the model. 
